@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".ReviewInformation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/review_info"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_medium"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/info_sections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_large"
+        android:layout_marginLeft="@dimen/margin_left"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/name_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_top"
+            >
+
+            <TextView
+                android:id="@+id/name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/review_name"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/name_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+
+
+                />
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              >
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/baseline_arrow_right_alt_24"
+                  android:rotation="90"
+                  android:layout_marginTop="@dimen/margin_top"
+                  />
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/baseline_arrow_right_alt_24"
+                  android:rotation="270"
+                  android:layout_marginTop="@dimen/margin_top"
+                  />
+          </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_details"
+                android:layout_marginTop="@dimen/margin_top_medium"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/country_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_top"
+            >
+
+            <TextView
+                android:id="@+id/country_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/review_country"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/country_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                 />
+            <TextView
+                android:id="@+id/country_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_large"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/address_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_top"
+            >
+
+            <TextView
+                android:id="@+id/address_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/review_address"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/address_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                 />
+            <TextView
+                android:id="@+id/address_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_large"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/contact_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_small"
+            android:layout_marginTop="@dimen/margin_top"
+            >
+
+            <TextView
+                android:id="@+id/contact_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/review_contact"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contact_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                 />
+            <TextView
+                android:id="@+id/contact_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top_large"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_24"
+        android:id="@+id/fabadd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/margin"
+        android:backgroundTint="@color/red"
+        android:contentDescription="add button"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="sender_page">Sender\nDetails</string>
+    <string name="reciever_page">Reciever\nDetails</string>
+    <string name="review_info">Review Information</string>
+    <string name="email_hint">Email</string>
+    <string name="fullname_hint">Full Name</string>
+    <string name="contact_hint">Contact Information</string>
+    <string name="country_hint">Country</string>
+    <string name="address_hint">Address</string>
+    <string name="button_name">Next</string>
+    <string name="review_name">Name</string>
+    <string name="review_country">Country</string>
+    <string name="review_address">Address</string>
+    <string name="review_contact">Contact</string>
+
+</resources>

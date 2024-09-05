@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context=".RecieverDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reciever_page"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_medium"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/margin_top_large"
+        android:hint="@string/email_hint"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:background="@drawable/rounded_border"
+        android:padding="@dimen/padding_medium"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etremail"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/fullname_hint"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:background="@drawable/rounded_border"
+        android:padding="@dimen/padding_medium"
+        android:inputType="textPersonName"
+        android:id="@+id/etrfullname"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/contact_hint"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:background="@drawable/rounded_border"
+        android:padding="@dimen/padding_medium"
+        android:inputType="phone"
+        android:id="@+id/etrcontact"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/country_hint"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:background="@drawable/rounded_border"
+        android:padding="@dimen/padding_medium"
+        android:inputType="text"
+        android:id="@+id/etrcountry"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/address_hint"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:background="@drawable/rounded_border"
+        android:padding="@dimen/padding_medium"
+        android:inputType="text"
+        android:id="@+id/etraddress"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/button_left"
+        android:layout_marginRight="@dimen/button_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/button_name"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btnrNext"
+
+        />
+
+</LinearLayout>

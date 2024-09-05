@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_medium">24sp</dimen>
+    <dimen name="text_size_large">32sp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">14dp</dimen>
+    <dimen name="margin_top_large">70dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+    <dimen name="margin_bottom">20dp</dimen>
+    <dimen name="button_left">90dp</dimen>
+    <dimen name="button_right">90dp</dimen>
+    <dimen name="margin_left_short">15dp</dimen>
+    <dimen name="margin_top_medium">25dp</dimen>
+    <dimen name="margin">40dp</dimen>
+</resources>
