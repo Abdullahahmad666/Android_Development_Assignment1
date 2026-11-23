@@ -1,26 +1,19 @@
-# Android Mobile App
+# Sender & Receiver Details — Android App
 
-This is a simple Android application developed using Java and XML, featuring four screens to collect and display sender and receiver details.
+An Android app built with **Java and XML** that collects sender details and receiver details on separate screens, then shows everything on a review screen before submission.
 
-## Project Description
+## Screens
+1. **Main**: entry point
+2. **Sender details**: name, contact and address of the sender
+3. **Receiver details**: name, contact and address of the receiver
+4. **Review**: summary of both, passed between activities with Intents
 
-The app is designed to collect information from a sender and receiver across multiple screens and review the collected details at the end. It consists of the following screens:
+## Tech
+Java · XML layouts · Android Activities and Intents · Android Studio · Gradle
 
-1. **Splash Screen**: A welcome screen that is displayed when the app is launched.
-2. **Sender Details Screen**: A form for inputting the sender's information.
-3. **Receiver Details Screen**: A form for inputting the receiver's information.
-4. **Review Information Screen**: Displays all the information entered by the sender and receiver for review before submission.
+## Run
+Open the project in Android Studio, let Gradle sync, and run it on an emulator or device (API 24+).
 
-## Features
-- Smooth navigation between screens.
-- User-friendly forms for entering details.
-- A summary screen to review inputted data before finalizing.
+---
 
-## Technologies Used
-- **Java**: For backend logic and functionality.
-- **XML**: For designing user interface layouts.
-
-## How to Run the Project
-1. Clone the repository.
-2. Open it in Android Studio.
-3. Build and run the app on an emulator or physical device.
+**Built by [Abdullah Ahmad](https://abdullah-ahmad-portfolio.vercel.app)**, Full Stack Software Engineer in Lahore, Pakistan · [GitHub](https://github.com/Abdullahahmad666) · [LinkedIn](https://www.linkedin.com/in/abdullah-ahmad-a00913259/)
